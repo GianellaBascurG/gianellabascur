@@ -144,7 +144,7 @@ class _ProductForm extends StatelessWidget {
                       value == true ? "Activo" : "bloqueador";
                   switchValue = value;
                 },
-                activeColor: Colors.orange,
+                activeColor: Color.fromARGB(255, 106, 166, 188),
                 title: const Text('Disponible'),
               )
             ],

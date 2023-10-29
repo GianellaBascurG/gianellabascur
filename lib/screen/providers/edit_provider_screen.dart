@@ -128,7 +128,7 @@ class _ProviderForm extends StatelessWidget {
                   switchValue = value;
                   provider.providerState = value ? "Activo" : "bloqueado";
                 },
-                activeColor: Colors.orange,
+                activeColor: Color.fromARGB(255, 80, 112, 163),
                 title: const Text('Disponible'),
               )
             ],
