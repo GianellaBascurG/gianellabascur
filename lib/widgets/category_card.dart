@@ -53,7 +53,7 @@ class _State extends StatelessWidget {
       height: 70,
       alignment: Alignment.center,
       decoration: const BoxDecoration(
-          color: Colors.red,
+          color: Color.fromARGB(255, 80, 94, 170),
           borderRadius: BorderRadius.only(
               topLeft: Radius.circular(25), bottomRight: Radius.circular(25))),
     );
@@ -93,7 +93,7 @@ class _CategoryDetails extends StatelessWidget {
   }
 
   BoxDecoration _boxDecorations() => const BoxDecoration(
-      color: Colors.orange,
+      color: Color.fromARGB(255, 85, 125, 200),
       borderRadius: BorderRadius.only(
           bottomLeft: Radius.circular(25), topRight: Radius.circular(25)));
 }
