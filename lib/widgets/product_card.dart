@@ -152,8 +152,8 @@ class _ProductDetails extends StatelessWidget {
 
 class _BackGroundImage extends StatelessWidget {
   final String? url;
-
-  const _BackGroundImage({Key? key, this.url}) : super(key: key);
+  
+ const _BackGroundImage({Key? key, this.url}) : super(key: key);
   @override
   Widget build(BuildContext context) {
     return ClipRRect(
